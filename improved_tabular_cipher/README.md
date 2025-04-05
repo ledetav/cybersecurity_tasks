@@ -17,7 +17,7 @@
 
 ```bash
 git clone https://github.com/ledetav/cybersecurity_tasks.git
-cd Cybersecurity_tasks/improved_tabular_cipher
+cd cybersecurity_tasks/improved_tabular_cipher
 ```
 2. (Опционально) создайте виртуальное окружение:
 
@@ -47,7 +47,7 @@ python -m unittest discover tests
 или точечно:
 
 ```bash
-python tests/tests_improved_tabular_cipher.py
+python improved_tabular_cipher_tests.py
 ```
 
 Если всё работает, увидите что-то вроде:

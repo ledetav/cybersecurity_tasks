@@ -19,7 +19,7 @@
 
 ```bash
 git clone https://github.com/ledetav/cybersecurity_tasks.git
-cd Cybersecurity_tasks/caesar_cipher
+cd cybersecurity_tasks/caesar_cipher
 ```
 2. (Опционально) создайте виртуальное окружение:
 

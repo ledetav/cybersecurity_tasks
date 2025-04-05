@@ -7,7 +7,7 @@ def create_table(text, key):
     table = [list(padded_text[i*cols:(i+1)*cols]) for i in range(rows)]
     return table
 
-def encrypt(text, key):
+def encrypt_tabular(text, key):
     key_order = sorted(list(enumerate(key)), key=lambda x: x[1])
     table = create_table(text, key)
     ciphertext = ''
@@ -16,7 +16,7 @@ def encrypt(text, key):
             ciphertext += row[index]
     return ciphertext
 
-def decrypt(ciphertext, key):
+def decrypt_tabular(ciphertext, key):
     cols = len(key)
     rows = math.ceil(len(ciphertext) / cols)
     key_order = sorted(list(enumerate(key)), key=lambda x: x[1])

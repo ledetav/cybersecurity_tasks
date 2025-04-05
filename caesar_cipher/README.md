@@ -18,8 +18,8 @@
 1. Клонируйте репозиторий:
 
 ```bash
-git clone https://github.com/yourusername/caesar_cipher_project.git
-cd caesar_cipher_project
+git clone https://github.com/ledetav/cybersecurity_tasks.git
+cd Cybersecurity_tasks/caesar_cipher
 ```
 2. (Опционально) создайте виртуальное окружение:
 

@@ -49,7 +49,7 @@ python -m unittest discover tests
 или точечно:
 
 ```bash
-python tests/test_cipher.py
+python caesar_cipher_tests.py
 ```
 
 Если всё работает, увидите что-то вроде:
